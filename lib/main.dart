@@ -1,5 +1,5 @@
 // import 'package:demoproject/screens/homepage.dart';
-import 'package:demoproject/screens/homepage.dart';
+// import 'package:demoproject/screens/homepage.dart';
 import 'package:demoproject/screens/search.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +14,7 @@ class DemoProject extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: Search(),
     );
   }
 }
