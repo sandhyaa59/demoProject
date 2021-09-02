@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
                     style: TextStyle(color: Colors.grey, fontSize: 12.0),
                   ),
                   Icon(
-                    Icons.arrow_right,
+                    Icons.expand_more,
                     color: Colors.black,
                   )
                 ],
@@ -264,7 +264,7 @@ Container search() {
                 hintText: 'search your Hotels',
               )),
         ),
-        IconButton(onPressed: () {}, icon: Icon(Icons.filter_list_outlined))
+        IconButton(onPressed: () {}, icon: Icon(Icons.tune_outlined))
       ],
     ),
   );
